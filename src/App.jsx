@@ -69,7 +69,7 @@ function App() {
 
   const gameBoard = deriveGameBoard(gameTurns);
 
-  const winnner = deriveWinner(gameBoard, players);
+  const winner = deriveWinner(gameBoard, players);
 
   const hasDraw = gameTurns.length === 9 && !winner;
 
